@@ -16,18 +16,17 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    /*shadCn*/
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
     "baseUrl": ".",
     "paths": {
       "@/*": [
         "./src/*"
       ]
     },
-    /* Linting */
-    "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
   },
   "include": [
     "src"
